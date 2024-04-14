@@ -1,0 +1,47 @@
+header h4{
+    margin: 10px;
+}
+
+
+button{
+    background-color: #090fd1;
+    color: #ffffff;
+    border: 0px;
+    margin: 1px;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+main h4{
+    margin-left: 10px;
+}
+.mun{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mun label{
+    padding-top: 22px;
+}
+.hidden{
+    display: none;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    border: #090fd1 1px solid;
+}
+
+.hidden input{
+    margin-bottom: 20px;
+}
+.mani{
+    margin-top: 20px;
+}
+.hidden{
+    display: none;
+}

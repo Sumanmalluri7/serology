@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serology</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<header>
+  <div style="display: flex;margin:10px; background-color: rgb(195, 219, 240);border-radius: 10px; justify-content: space-between;">
+    <h4>Study Code</h4>
+    <h4>Status</h4>
+    <h4>Subject Initial</h4>
+    <h4>Screening Date</h4>
+    <h4>Screening Number</h4>
+    <h4>Visit Name</h4>
+    <h4>Site</h4>
+    <h4>Subject Status</h4>
+  </div>
+  <div>
+
+  </div>
+</header>
+<body>
+  <main>
+    <form action="">
+      <div>
+      <div>
+        <h3>Visit 1(Screening)</h3>
+      </div>
+      <button>IWRS</button> <button>ELGB</button> <button>DOV</button> <button>IC</button> <button>DM</button> <button>DDG</button> <button>SHPT</button> <button>SHM</button> <button>CHP</button> <button>CHM</button> <button>RHP</button> <button>RHM</button> <button>THP</button> <button>THM</button> <button>MH</button> <button>ECOG</button> <button>ECHO</button> <button>EG</button> <button>XRAY</button> <button>DE</button> <button>XRM</button> <button>BMD</button> <button>SSX</button> <button>SI</button> <button>BRI</button> <button>PREG</button> <button>SERO</button> <button>PE</button> <button>VS</button> <button>URIN</button> <button>LB1</button> <button>LB2</button> <button>IE1</button> <button>IE2</button> <button>EV</button> <button>RSC</button>
+      <div><div style="display: flex;"><h4>Section Status :</h4><div></div> </div><div style="display: flex;"><h4>CRF Audit Trail :</h4><div></div></div>
+      <div style="border: rgb(25, 29, 164) 0.1px solid ;">
+        <div style="display:flex;justify-content: space-between;background-color: rgb(195, 219, 240);border-radius: 10px; margin:10px;">
+          <h4>Serology Test</h4>
+          <div>
+          <button>Back</button>
+          <div>
+          <button>Upload Documents -></button>
+          <input type="file" name="Upload file" id="">
+        </div>
+        
+        </div>
+        
+          </div>
+          <div>
+          <div class="mun">            
+            <h4>Is Sample Collected ?</h4>  <input type="radio" name="Sample" id="SampYes"><label for="Yes">Yes</label>
+          <input type="radio" name="Sample" id="SampNo"><label for="No">No</label> <input type="radio" name="Sample" id="SampNA"><label for="Na">Not Applicable</label><br>
+          </div>
+
+          <div class="hidden" id="reasonBlock">
+            <h4>If No, Specify the reason(s)</h4>
+            <input type="text" name="" id="text"><br>
+          </div>
+        <div class="hidden">
+          <div style="display: flex;">
+            <h4>Date of Sample Collection</h4>
+            <input type="date" name="" id="" class="mani"><br>
+          </div>
+        
+    </div>
+    <div class="hidden">
+        <div>
+            <h4>Perameter</h4>
+            <h4>HIV</h4>
+            <h4>Hepatitis B</h4>
+            <H4>Hepatitis C</H4>
+        </div>
+        <div>
+            <h4>Test Done?</h4>
+            <input type="radio" name="HIV" id="Yes"><label for="Yes">Yes</label><input type="radio" name="HIV" id="NO"><label for="NO">No</label><br>
+            <input type="radio" name="B" id="Yes"><label for="Yes">Yes</label><input type="radio" name="B" id="NO"><label for="NO">No</label><br>
+            <input type="radio" name="C" id="Yes"><label for="Yes">Yes</label><input type="radio" name="C" id="NO"><label for="NO">No</label><br>
+        </div>
+        <div>
+            <h4>If No, Specofy the reason(s)</h4>
+            <input type="text" name="" id=""><br>
+            <input type="text" name="" id=""><br>
+            <input type="text" name="" id="">
+        </div>
+        <div>
+            <h4>Result</h4>
+            <input type="radio" name="HIV-Result" id="RE"><label for="HIV-RE">Reactive</label><input type="radio" name="HIV-N-RE" id="N-RE"><label for="N-RE">Non-Reactive</label><br>
+            <input type="radio" name="B-Result" id="RE"><label for="B-RE">Reactive</label><input type="radio" name="B-N-RE" id="N-RE"><label for="N-RE">Non-Reactive</label><br>
+            <input type="radio" name="C-Result" id="RE"><label for="C-RE">Reactive</label><input type="radio" name="C-N-RE" id="N-RE"><label for="N-RE">Non-Reactive</label>
+        </div>
+    </div>
+       <center> <button>Save & Submit</button></center>
+      </div>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
